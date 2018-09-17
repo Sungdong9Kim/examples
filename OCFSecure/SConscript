@@ -133,6 +133,6 @@ examples_dir = '/examples/OCFDeviceBuilder/'
 #list_of_samples = [client, client_dat, client_dev, server, server_dat]
 list_of_samples = [server]
 
-Alias("OCFDeviceBuilder", list_of_samples)
+Alias("OCFSecure", list_of_samples)
 
-env.AppendTarget('OCFDeviceBuilder')
+env.AppendTarget('OCFSecure')
